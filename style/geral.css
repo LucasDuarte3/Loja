@@ -3,7 +3,7 @@
     margin: 0px;
 }
 :root {
-    --vermelho: rgb(255, 0, 0);
+    --vermelho: rgba(255, 0, 0, 0.815);
     --azul: blue;
     --preto: black;
     --branco: white;

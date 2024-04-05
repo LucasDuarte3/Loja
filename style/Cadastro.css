@@ -4,14 +4,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: var(--vermelho);
 }
 main {
     width: 100%;
-    height: 660px;
+    height: 730px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/CONTROLE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #formulario {
     width: 80%;
@@ -34,7 +37,10 @@ main {
 #informacoes {
     width: 50%;
     height: 100%;
-    background-color: aqua;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #informacoes form {
     width: 100%;
@@ -58,4 +64,7 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: center;
+}
+footer {
+    background-color: rgba(128, 128, 128, 0.716);
 }
