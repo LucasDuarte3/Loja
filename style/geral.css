@@ -51,13 +51,21 @@ header {
 /*Rodapé*/
 footer {
     width: 100%;
-    height: 80px;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    color: var(--azul);
-    background-color: var(--branco);
-    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-footer p, h3 {
-    padding: 10px;
+#suporte {
+    width: 20%;
+    padding: 20px;
+}
+#direitos {
+    width: 60%;
+    padding: 20px;
+}
+#contatos {
+    width: 20%;
+    padding: 20px;
 }
